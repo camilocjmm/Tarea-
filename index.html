@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Mi Clima</h1>
+        </div>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Búsqueda</a>
+            <a href="#">Mensajes</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="Clima">
+            <h2>La temperatura y sus cambios</h2>
+            <p class="ver-mas">𝓋ℯ𝓇 𝓂𝒶́𝓈</p>
+        </section>
+
+        <section class="General">
+            <div class="general-container">
+                <div class="map-box">
+                    <iframe src="https://mapa.tutiempo.net/#6.15148;-77.21191;6" scrolling="no" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true"></iframe>
+                </div>
+
+                <div class="sidebar">
+                    <h3>Busquedas Recientes</h3>
+                    <div class="busqueda"><a href="">temperatura Colombia</a></div>
+                    <div class="busqueda"><a href="">temperatura España</a></div>
+                    <div class="busqueda"><a href="">temperatura Brasil</a></div>
+                    <div class="busqueda"><a href="">temperatura Perú</a></div>
+
+                    <div class="info">El día 25 de oct en Coruña será nublado (14°)</div>
+
+                    <div class="cuadros-derecha">
+                        <div class="cuadro">
+                            <div class="cuadro-icono"></div>
+                            <div class="cuadro-texto">
+                                <h4>Temperatura Actual</h4>
+                                <p>Muestra las condiciones de temperatura en tiempo real.</p>
+                            </div>
+                        </div>
+
+                        <div class="cuadro">
+                            <div class="cuadro-icono"></div>
+                            <div class="cuadro-texto">
+                                <h4>Humedad</h4>
+                                <p>Nivel de humedad ambiental en la región seleccionada.</p>
+                            </div>
+                        </div>
+
+                        <div class="cuadro">
+                            <div class="cuadro-icono"></div>
+                            <div class="cuadro-texto">
+                                <h4>Pronóstico</h4>
+                                <p>Predicción del clima para los próximos días.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
