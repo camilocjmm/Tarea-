@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #3AA69B;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;               
+    padding: 0;                  
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+}
+
+.logo h1 {
+    font-size: 18px;            
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+
+.logo {
+    position: absolute;
+    left: 30px;
+}
+
+.logo h1 {
+    font-size: 20px; 
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8px 14px;
+    background: #3498db;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background: #217dbb;
+    transform: translateY(-2px);
+}
+
+.Clima {
+    text-align: center;
+    margin: 0;
+    padding: 60px 20px;
+    background: #cfe8ff;
+    border-radius: 0 0 25px 25px;
+    color: #2c3e50;
+}
+
+.Clima h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.Clima p {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.General {
+    width: 90%;
+    margin: 20px auto 40px auto;
+    padding: 20px;
+}
+
+.general-container {
+    display: flex;
+    gap: 25px;
+    min-height: 700px; 
+}
+
+.map-box iframe {
+    width: 600px; 
+    height: 500px;
+    border-radius: 12px;
+    border: none;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sidebar h3 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.busqueda a {
+    display: block;
+    margin-bottom: 8px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.busqueda a:hover {
+    text-decoration: underline;
+}
+
+.info {
+    background: #f1f1f1;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.cuadros-derecha {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 320px;
+}
+
+.cuadro {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: #ffffff;
+    padding: 14px 18px;
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.cuadro:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+.cuadro-icono {
+    width: 40px;
+    height: 40px;
+    background: #eef2ff;
+    border-radius: 12px;
+}
+
+.cuadro-texto h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 4px;
+}
+
+.cuadro-texto p {
+    font-size: 13px;
+    line-height: 1.4;
+    color: #555;
+}
+
